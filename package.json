@@ -3,6 +3,8 @@
     "displayName": "fiwl-snippets",
     "description": "Code snippets for FIWL.js",
     "publisher": "fiwl-js",
+    "repository": "https://github.com/fiwl-js/fiwl-snippets",
+    "icon": "images/logo_dark.png",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.46.0"
