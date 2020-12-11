@@ -1,4 +1,4 @@
-# fiwl-snippets README
+# fiwl-snippets
 
 This is the README for your extension "fiwl-snippets". After writing up a brief description, we recommend including the following sections.
 
