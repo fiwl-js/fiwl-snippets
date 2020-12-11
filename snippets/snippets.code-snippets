@@ -1,6 +1,6 @@
 {
     "Stage": {
-        "prefix": "|stg",
+        "prefix": "|stage",
         "body": [
             "<Stage",
             "\ttitle='${1:title}'",
@@ -10,7 +10,7 @@
         "description": "Creates a main Stage widget."
     },
     "Event": {
-        "prefix": "|evnt",
+        "prefix": "|event",
         "body": [
             "<event on='${1:ready}'>",
             "</event>"
@@ -18,7 +18,7 @@
         "description": "Creates a main Event widget."
     },
     "Series Layout": {
-        "prefix": "|slay",
+        "prefix": "|serieslayout",
         "body": [
             "<SeriesLayout",
             "\twidth='$1'",
@@ -28,14 +28,23 @@
         "description": "Creates a Series Layout widget widget."
     },
     "Label": {
-        "prefix": "|lab",
+        "prefix": "|label",
         "body": [
             "<Label",
             "\twidth='container'",
             "\ttext='$1'",
-            "textSize='@style/titleTextSize'",
+            "\ttextSize='@style/titleTextSize'",
             "/>"
         ],
         "description": "Creates a label widget to display some text."
+    },
+    "Button": {
+        "prefix": "|button",
+        "body": [
+            "<Button",
+            "\ttext='$1'",
+            "/>"
+        ],
+        "description": "Creates a button widget for interactivity."
     }
 }
