@@ -2,6 +2,7 @@
     "name": "fiwl-snippets",
     "displayName": "fiwl-snippets",
     "description": "Code snippets for FIWL.js",
+    "publisher": "fiwl-js",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.46.0"
